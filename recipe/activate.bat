@@ -4,9 +4,9 @@ set "CONDA_BACKUP_FC_LD=%FC_LD%"
 set "CONDA_BACKUP_LDFLAGS=%LDFLAGS%"
 set "CONDA_BACKUP_AR=%AR%"
 
-set "FC=flang.exe"
-set "FC_LD=lld-link.exe"
-set "AR=llvm-ar.exe"
+set "FC=flang"
+set "FC_LD=lld-link"
+set "AR=llvm-ar"
 
 :: following https://github.com/conda-forge/clang-win-activation-feedstock/blob/main/recipe/activate-clang_win-64.bat
 set "FFLAGS=-D_CRT_SECURE_NO_WARNINGS -fms-runtime-lib=dll -fuse-ld=lld"
